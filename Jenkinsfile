@@ -3,7 +3,7 @@
 //DECLARATIVE
 pipeline {
 	agent any
-	 agent { docker { image 'M3'} }
+	 agent { docker { image 'myMaven'} }
 	// agent { docker { image 'node:13.8'} }
 	//environment {
 		//dockerHome = tool 'myDocker'
